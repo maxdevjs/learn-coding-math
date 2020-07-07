@@ -41,9 +41,7 @@ window.onload = function () {
     
     y = Math.cos(angle) * 200;
 		context.fillStyle = "red";
-		context.fillRect(x, y, 5, 5);
-    
-    // console.log(Math.sin(angle));
+    context.fillRect(x, y, 5, 5);
   }
   
 };
